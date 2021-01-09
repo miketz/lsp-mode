@@ -1,7 +1,4 @@
 
-
-
-
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
@@ -18,21 +15,25 @@
         <meta name="author" content="ercdll1337@gmail.com">
       
       <link rel="shortcut icon" href="../../examples/logo-mini.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.13">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.0.0">
     
     
       
-        <title>Configuring Emacs a C/C++ IDE - LSP Mode - LSP support for Emacs</title>
+        <title>Configuring Emacs as a C/C++ IDE - LSP Mode - LSP support for Emacs</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.077507d7.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1d877a71.min.css">
       
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.17bd0b03.min.css">
+        
       
     
     
     
       
+        
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
@@ -55,16 +56,21 @@
   </head>
   
   
-    <body dir="ltr">
-  
     
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
         
-        <a href="#configuring-emacs-a-cc-ide" class="md-skip">
+        <a href="#configuring-emacs-as-a-cc-ide" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +97,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Configuring Emacs a C/C++ IDE
+              Configuring Emacs as a C/C++ IDE
             
           </span>
         </div>
@@ -146,8 +152,6 @@
 </header>
     
     <div class="md-container" data-md-component="container">
-      
-        
       
       
         
@@ -1155,6 +1159,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../page/lsp-phpactor/" title="PHP (phpactor)" class="md-nav__link">
+      PHP (phpactor)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../page/lsp-pwsh/" title="Powershell" class="md-nav__link">
       Powershell
     </a>
@@ -1617,8 +1633,8 @@
       
     
     
-    <a href="./" title="Configuring Emacs a C/C++ IDE" class="md-nav__link md-nav__link--active">
-      Configuring Emacs a C/C++ IDE
+    <a href="./" title="Configuring Emacs as a C/C++ IDE" class="md-nav__link md-nav__link--active">
+      Configuring Emacs as a C/C++ IDE
     </a>
     
   </li>
@@ -1632,6 +1648,30 @@
   <li class="md-nav__item">
     <a href="../how-to-turn-off/" title="A guide on disabling/enabling lsp-mode features" class="md-nav__link">
       A guide on disabling/enabling lsp-mode features
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../reactjs-tutorial/" title="React JavaScript Tutorial in Emacs" class="md-nav__link">
+      React JavaScript Tutorial in Emacs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../clojure-guide/" title="Configuring Emacs as a Clojure IDE" class="md-nav__link">
+      Configuring Emacs as a Clojure IDE
     </a>
   </li>
 
@@ -1775,10 +1815,7 @@
                   </a>
                 
                 
-                  
-                
-                
-                <h1 id="configuring-emacs-a-cc-ide">Configuring <code>Emacs</code> a <code>C/C++</code> IDE<a class="headerlink" href="#configuring-emacs-a-cc-ide" title="Permanent link">#</a></h1>
+                <h1 id="configuring-emacs-as-a-cc-ide">Configuring <code>Emacs</code> as a <code>C/C++</code> IDE<a class="headerlink" href="#configuring-emacs-as-a-cc-ide" title="Permanent link">#</a></h1>
 <p>In this guide, I will show you how to configure <code>lsp-mode</code> and <code>dap-mode</code> for C/C++ development, using <code>GNU Emacs</code> as an example code base. At the end of this tutorial, Emacs should provide you with all the language-aware editor features you'd expect from a modern C++ IDE, such as</p>
 <ul>
 <li>Code completion...
@@ -1917,7 +1954,7 @@ show documentation at point. You may change the default prefix by setting
 <ul>
 <li><code>xref-find-definitions</code>(<code>M-.</code> and <code>s-l g g</code>) - find definition(s) at point</li>
 <li><code>xref-find-references</code>(<code>s-l g r</code>) - find references to the symbol at point
-<img alt="References" src="images/images/references-helm.png" title="References helm" /></li>
+<img alt="References" src="../images/references-helm.png" title="References helm" /></li>
 <li><code>helm-imenu</code> - browse the symbols in current document</li>
 <li><code>helm-lsp-workspace-symbol</code> - find symbol in current project
 <img alt="workspace symbols" src="../images/workspace-symbols.png" title="workspace symbols" /></li>
@@ -2003,7 +2040,7 @@ dap-breakpoint-toggle</code>. Switch to the debugged instance and do</p>
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 22, 2020</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 8, 2021</span>
     
   </small>
 </div>
@@ -2099,8 +2136,8 @@ dap-breakpoint-toggle</code>. Switch to the debugged instance and do</p>
         
         
       
-      <a href="https://gitter.im/emacs-lsp/lsp-mode" target="_blank" rel="noopener" title="gitter.im" class="md-footer-social__link">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M66.4 322.5H16V0h50.4v322.5zM166.9 76.1h-50.4V512h50.4V76.1zm100.6 0h-50.4V512h50.4V76.1zM368 76h-50.4v247H368V76z"/></svg>
+      <a href="https://discord.gg/swuxy5AAgT" target="_blank" rel="noopener" title="discord.gg" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"/></svg>
       </a>
     
   </div>
@@ -2111,15 +2148,15 @@ dap-breakpoint-toggle</code>. Switch to the debugged instance and do</p>
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.2d1db4bd.min.js"></script>
-      <script src="../../assets/javascripts/bundle.6627ddf3.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../assets/javascripts/vendor.c6483021.min.js"></script>
+      <script src="../../assets/javascripts/bundle.e2f7d7a4.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
           base: "../..",
-          features: ['tabs'],
+          features: ['navigation.tabs'],
           search: Object.assign({
-            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+            worker: "../../assets/javascripts/worker/search.cbc634e2.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
