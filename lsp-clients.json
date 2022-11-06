@@ -361,9 +361,17 @@
   {
     "name": "markdown",
     "full-name": "Markdown",
-    "server-name": "unified-language-server",
+    "server-name": "unified-language-server (deprecated in favor of remark-language-server)",
     "server-url": "https://github.com/unifiedjs/unified-language-server",
     "installation": "npm i -g unified-language-server",
+    "debugger": "Not available"
+  },
+  {
+    "name": "nginx",
+    "full-name": "Nginx",
+    "server-name": "nginx-lsp",
+    "server-url": "https://github.com/pappasam/nginx-language-server",
+    "installation": "pip install -U nginx-language-server",
     "debugger": "Not available"
   },
   {
@@ -538,6 +546,14 @@
     "debugger": "Not available"
   },
   {
+    "name": "remark",
+    "full-name": "Remark",
+    "server-name": "remark-language-server",
+    "server-url": "https://github.com/remarkjs/remark-language-server",
+    "installation": "npm i -g remark-language-server",
+    "debugger": "Not available"
+  },
+  {
     "name": "robot",
     "full-name": "robot framework",
     "server-name": "rf-intellisense",
@@ -627,6 +643,14 @@
     "server-name": "terraform-lsp",
     "server-url": "https://github.com/juliosueiras/terraform-lsp",
     "installation": "Git clone outside of $GOPATH; go install",
+    "debugger": "Not available"
+  },
+  {
+    "name": "terraform-ls",
+    "full-name": "Terraform LSP",
+    "server-name": "terraform-ls",
+    "server-url": "https://github.com/hashicorp/terraform-ls",
+    "installation-url": "https://github.com/hashicorp/terraform-ls",
     "debugger": "Not available"
   },
   {
