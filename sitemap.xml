@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/manual-language-docs/lsp-gopls/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/manual-language-docs/lsp-latex/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
@@ -32,6 +37,11 @@
     </url>
     <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/manual-language-docs/lsp-sqls/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/manual-language-docs/lsp-terraform-ls/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -91,12 +101,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-ansible/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-bash/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-beancount/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-camel/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -161,12 +181,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-dot/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-elixir/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-elm/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-emmet/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -211,6 +241,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-gleam/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-gopls/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
@@ -237,6 +272,11 @@
     </url>
     <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-html/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-idris/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -291,7 +331,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-magik/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-markdown/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-marksman/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-mint/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -321,6 +376,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-openscad/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-pascal/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
@@ -331,12 +391,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-perlnavigator/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-php/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-phpactor/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-pls/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -446,6 +516,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-syntax_tree/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-terraform-ls/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
@@ -467,6 +542,16 @@
     </url>
     <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-toml/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-ttcn3/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-typeprof/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -506,7 +591,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-vim/</loc>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-vimscript/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-volar/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -641,7 +731,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/tutorials/docker-integration/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/tutorials/how-to-turn-off/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/tutorials/php-guide/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
