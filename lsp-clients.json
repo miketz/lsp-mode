@@ -260,6 +260,14 @@
     "debugger": "Not available"
   },
   {
+    "name": "glsl",
+    "full-name": "GLSL",
+    "server-name": "glsl",
+    "server-url": "https://github.com/svenstaro/glsl-language-server",
+    "installation-url": "https://github.com/svenstaro/glsl-language-server",
+    "debugger": "Not available"
+  },
+  {
     "name": "gopls",
     "full-name": "Go",
     "server-name": "gopls",
@@ -742,6 +750,14 @@
     "debugger": "Yes"
   },
   {
+    "name": "semgrep",
+    "full-name": "Semgrep",
+    "server-name": "semgrep-ls",
+    "server-url": "https://github.com/returntocorp/semgrep",
+    "installation": "pip install semgrep --user",
+    "debugger": "Not available"
+  },
+  {
     "name": "serenata",
     "common-group-name": "php",
     "full-name": "PHP (Serenata)",
@@ -749,6 +765,15 @@
     "server-url": "https://gitlab.com/Serenata/Serenata",
     "installation-url": "https://gitlab.com/Serenata/Serenata/-/releases",
     "debugger": "Yes"
+  },
+  {
+    "name": "shader",
+    "common-group-name": "ShaderLab",
+    "full-name": "ShaderLab",
+    "server-name": "shader-ls",
+    "server-url": "https://github.com/shader-ls/shader-language-server",
+    "installation-url": "https://github.com/shader-ls/shader-language-server/releases",
+    "debugger": "Not available"
   },
   {
     "name": "solargraph",
