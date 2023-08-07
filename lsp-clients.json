@@ -43,6 +43,15 @@
     "debugger": "Not available"
   },
   {
+    "name": "awk",
+    "full-name": "AWK",
+    "server-name": "awk-language-server",
+    "server-url": "https://github.com/Beaglefoot/awk-language-server",
+    "installation": "npm i -g awk-language-server",
+    "lsp-install-server": "awkls",
+    "debugger": "Not available"
+  },
+  {
     "name": "bash",
     "full-name": "Bash",
     "server-name": "bash-language-server",
@@ -67,6 +76,14 @@
     "server-url": "https://github.com/camel-tooling/camel-language-server/",
     "installation": "Automatic by lsp-mode with `lsp-install-server`",
     "lsp-install-server": "camells",
+    "debugger": "Not available"
+  },
+  {
+    "name": "credo",
+    "full-name": "Credo",
+    "server-name": "credo-ls",
+    "server-url": "https://github.com/elixir-tools/credo-language-server",
+    "installation-url": "https://github.com/elixir-tools/credo-language-server#installation",
     "debugger": "Not available"
   },
   {
@@ -203,11 +220,19 @@
     "debugger": "Not available"
   },
   {
-    "name": "erlang",
+    "name": "erlang-ls",
     "full-name": "Erlang",
     "server-name": "erlang_ls",
     "server-url": "https://github.com/erlang-ls/erlang_ls",
     "installation-url": "https://github.com/erlang-ls/erlang_ls",
+    "debugger": "Not available"
+  },
+  {
+    "name": "erlang-elp",
+    "full-name": "Erlang",
+    "server-name": "elp",
+    "server-url": "https://github.com/WhatsApp/erlang-language-platform",
+    "installation-url": "https://github.com/WhatsApp/erlang-language-platform",
     "debugger": "Not available"
   },
   {
